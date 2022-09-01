@@ -7,6 +7,7 @@
     <h1 class="title mt-6 has-font-ubuntu">Jordan AZRAN</h1>
     <h2 class="subtitle">Developpeur Web & Web Mobile</h2>
   </div>
+
   <article class="message is-dark">
     <div class="message-header">
       <p>Qui je suis ?</p>

@@ -1,14 +1,16 @@
 <template>
-
+  <Skill />
+  <Experience />
 </template>
 
 <script>
-import Connaissances from "../CV/Connaissances.vue";
+import Skill from "../components/CV/Skill.vue";
+import Experience from "../components/CV/Experience";
 export default {
   name: "mon-cv",
   components: {
-    Connaissances,
-
+    Skill,
+    Experience,
   },
   data() {
     return {};
