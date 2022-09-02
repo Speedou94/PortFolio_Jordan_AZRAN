@@ -1,10 +1,4 @@
 <template>
-  <title>A propos</title>
-  <div class="accueil">
-    <h1 class="title mt-6 has-font-ubuntu">Jordan AZRAN</h1>
-    <h2 class="subtitle">Developpeur Web & Web Mobile</h2>
-  </div>
-
   <article class="message is-dark">
     <div class="message-header">
       <p>Qui je suis ?</p>
@@ -50,18 +44,13 @@
         j'effectuerai du
         <strong>17 octobre 2022 au 9 décembre 2022.</strong> <br />
         <br />
-        Il vous est possible de consulter<strong
-      ><a class="navbar-item" href="https://github.com/Speedou94"
-      >mes projets</a
-      ></strong
-      >
-        (personnel ou dans le cadre de ma formation) sur ce site. <br /><br />
+        Il vous est possible de consulter<strong> mes projets </strong>
+        (personnel ou dans le cadre de ma formation) un peu plus bas. <br /><br />
         Si mon profil vous plait, que vous souhaitez que l'ont se rencontre et
         que l'on échange sur un projet que vous avez en tête ou tout simplement
         pour prendre un café, je serai ravi de vous répondre.
       </p></div>
   </article>
-
 </template>
 
 <script>
@@ -84,7 +73,8 @@ export default {
   flex-direction: row;
   justify-content: space-around;
 }
-.subtitle{
+
+.subtitle {
   align-items:;
 }
 </style>

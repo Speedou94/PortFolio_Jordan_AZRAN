@@ -8,6 +8,9 @@ import AboutMe from "@/components/About/AboutMe";
 import MonCv from "@/views/Cv";
 
 export default {
-  components: {MonCv, AboutMe }
+  components: {
+    MonCv,
+    AboutMe,
+  }
 }
 </script>
