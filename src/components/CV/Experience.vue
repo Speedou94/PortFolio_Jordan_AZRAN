@@ -58,8 +58,14 @@
               height="128"
               width="128"
             />
-            <p>2019 - 2021 : Résponsable du centre de formation</p>
-            <p>CR-Consulting Conseil - La Roche Sur Yon 85000</p>
+            <p>2017 - 2019 : Technicien réparateur en produit High Tech</p>
+            <p>Cash & Repair - Nantes 44000</p>
+            <p>Etablir un diagnostic précis et effectuer la réparation</p>
+            <p>
+              Conseiller les clients sur leurs choix d'appareils et sur une
+              eventuelle réparation
+            </p>
+            <p>Veille permanante sur les nouveautées Hardware et Software</p>
             <br />
           </div>
           <div class="content">
@@ -69,8 +75,18 @@
               height="128"
               width="128"
             />
-            <p>2019 - 2021 : Résponsable du centre de formation</p>
-            <p>CR-Consulting Conseil - La Roche Sur Yon 85000</p>
+            <p>
+              2015 - 2017 : Résponsable des ventes, remorques et pièces
+              détachées
+            </p>
+            <p>Latour Sport Vacances - 44000 Nantes</p>
+            <p>Accueillir et conseiller le client sur son besoin</p>
+            <p>
+              Recherche et visite des fournisseurs de remorques et pièces
+              détachées
+            </p>
+            <p>Gestion des stocks magasin</p>
+            <p>Montage d'attelage sur VL et Camping Car</p>
             <br />
           </div>
         </div>
@@ -78,3 +94,6 @@
     </div>
   </article>
 </template>
+<style lang="scss" scoped>
+
+</style>

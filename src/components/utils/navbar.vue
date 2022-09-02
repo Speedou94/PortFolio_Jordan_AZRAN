@@ -39,3 +39,10 @@
     </div>
   </nav>
 </template>
+
+<style>
+.navbar{
+  background: none;
+  color: white;
+}
+</style>

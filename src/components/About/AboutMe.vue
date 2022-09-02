@@ -1,8 +1,5 @@
 <template>
   <title>A propos</title>
-  <nav>
-    <nav-bar />
-  </nav>
   <div class="accueil">
     <h1 class="title mt-6 has-font-ubuntu">Jordan AZRAN</h1>
     <h2 class="subtitle">Developpeur Web & Web Mobile</h2>
@@ -12,7 +9,13 @@
     <div class="message-header">
       <p>Qui je suis ?</p>
     </div>
-    <div class="message-body">
+    <div class="message-body is-flex">
+      <img class="imgJA"
+           src="../../assets/img/jordan.azran.jpg"
+           alt="Image"
+           height="256"
+           width="256"
+      />
       <p class="subtitle">
         <strong>Bienvenue sur mon portefolio.</strong><br /><br />
         Je me présente, Jordan, 31 ans, papa de 3 enfants.
@@ -33,7 +36,7 @@
         <a
           href="https://www.eni-ecole.fr/formations/developpement/bac2-developpeur-web-et-web-mobile/"
           target="_blank"
-          >ENI</a
+        >ENI</a
         >.<br />
         <br />
         J'y apprend énormement de choses et ma curiosité est mise à mal avec
@@ -48,25 +51,22 @@
         <strong>17 octobre 2022 au 9 décembre 2022.</strong> <br />
         <br />
         Il vous est possible de consulter<strong
-          ><a class="navbar-item" href="https://github.com/Speedou94"
-            >mes projets</a
-          ></strong
-        >
+      ><a class="navbar-item" href="https://github.com/Speedou94"
+      >mes projets</a
+      ></strong
+      >
         (personnel ou dans le cadre de ma formation) sur ce site. <br /><br />
         Si mon profil vous plait, que vous souhaitez que l'ont se rencontre et
         que l'on échange sur un projet que vous avez en tête ou tout simplement
         pour prendre un café, je serai ravi de vous répondre.
-      </p>
-    </div>
+      </p></div>
   </article>
-  <footer>
-    <footer-page />
-  </footer>
+
 </template>
 
 <script>
 export default {
-  name: "about-me",
+  name: "about-me"
 };
 </script>
 
@@ -83,5 +83,8 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.subtitle{
+  align-items:;
 }
 </style>

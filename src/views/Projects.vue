@@ -1,5 +1,5 @@
 <template>
-<ENI/>
+  <ENI />
 </template>
 
 <script>
@@ -9,12 +9,10 @@ export default {
   components: {
     ENI,
   },
-  data(){
-    return{};
+  data() {
+    return {};
   },
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

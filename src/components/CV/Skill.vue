@@ -12,7 +12,7 @@
               alt=""
               height="128"
               width="128"
-            />
+            /><br /><br />
             <p>2022 - 2023 : Titre niveau 5 RNCP31114</p>
             <p>
               Développeur Web et Web Mobile - ENI Ecole informatique - Nantes
@@ -27,7 +27,7 @@
               alt=""
               height="128"
               width="128"
-            />
+            /><br /><br />
             <p>2017 - 2018 : Formation Réparateur en produits High Tech</p>
             <p>CR-Consulting Conseil - La Roche Sur Yon 85000</p>
           </div>
@@ -39,7 +39,7 @@
               alt=""
               height="128"
               width="128"
-            />
+            /><br /><br />
             <p>2017 - 2018 : Formation Réparateur en produits High Tech</p>
             <p>Développeur Web et Web Mobile - ENI Ecole informatique</p>
           </div>
