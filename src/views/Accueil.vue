@@ -1,31 +1,35 @@
 <template>
-  <div>
-    <title>A propos</title>
-    <div class="accueil">
-      <h1 class="title mt-6 has-font-ubuntu">Jordan AZRAN</h1>
-      <h2 class="subtitle">Developpeur Web & Web Mobile</h2>
-    </div>
+  <div class="Accueil">
+    <h1 class="title mt-6 has-font-ubuntu">
+      Jordan AZRAN<br/>
+      Developpeur Web & Web Mobile <br>
+      En recherche de stage du 17 octobre au 9 decembre 2022</h1>
   </div>
+  <br>
   <div class="aboutme">
-    <aboutMe />
+    <aboutMe/>
   </div>
   <div class="skill">
     <skill/>
   </div>
+  <br/><br/>
   <div class="cv-ja">
     <mon-cv/>
+    <br/>
   </div>
   <div class="cv-langage">
     <Techno/>
+  </div>
+    <div class="cv-ide">
     <IDE/>
-  </div><br>
+  </div>
+  <br/>
   <div class="projects">
     <ENI/>
   </div>
   <div class="contact-me">
     <contact-me/>
   </div>
-
 </template>
 
 <script>
@@ -34,7 +38,6 @@ import MonCv from "/src/components/CV/Experience";
 import Skill from "@/components/CV/Skill";
 import Techno from "@/components/CV/Techno";
 import IDE from "@/components/CV/IDE";
-import MesProjets from "@/views/Projects";
 import ENI from "@/components/Projets/ENI";
 import ContactMe from "@/views/ContactMe";
 
@@ -47,12 +50,22 @@ export default {
     Techno,
     Skill,
     MonCv,
-    AboutMe
+    AboutMe,
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.title {
+  background-image: url("../assets/img/Various/bann.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 120px;
+}
+</style>

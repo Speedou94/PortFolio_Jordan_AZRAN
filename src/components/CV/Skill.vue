@@ -1,59 +1,83 @@
 <template>
-  <h1>Développeur Web & Web Mobile</h1>
-  <h2>En recherche de stage du 17 octobre 2022 au 9 décembre 2022</h2>
-  <article class="message is-primary">
+  <article class="message is-dark">
     <div class="message-header">
-      <p>Mes Formations</p>
-      <div class="card">
-        <div class="card-content">
-          <div class="content">
-            <img
-              src="../../assets/img/eni.png"
-              alt=""
-              height="128"
-              width="128"
-            /><br /><br />
-            <p>2022 - 2023 : Titre niveau 5 RNCP31114</p>
-            <p>
-              Développeur Web et Web Mobile - ENI Ecole informatique - Nantes
-              44000
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img
-              src="../../assets/img/CRC.png"
-              alt=""
-              height="128"
-              width="128"
-            /><br /><br />
-            <p>2017 - 2018 : Formation Réparateur en produits High Tech</p>
-            <p>CR-Consulting Conseil - La Roche Sur Yon 85000</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img
-              src="../../assets/img/sen.png"
-              alt=""
-              height="128"
-              width="128"
-            /><br /><br />
-            <p>2017 - 2018 : Formation Réparateur en produits High Tech</p>
-            <p>Développeur Web et Web Mobile - ENI Ecole informatique</p>
-          </div>
-        </div>
+      <p>Mes principales formations</p>
+    </div>
+    <div class="message-body is-flex">
+
+      <p class="subtitle">
+      <div class="content-texte box">
+        <img
+            class="imgENI"
+            src="../../assets/img/Various/eni.png"
+            alt="Image"
+            height="128"
+            width="128"
+        />
+        <strong>2022 - 2023 : Titre niveau 5 RNCP31114</strong><br/>
+      Développeur Web et Web Mobile - ENI Ecole informatique - Nantes
+      44000 <br>
       </div>
+      </p>
+
+        <p class="subtitle">
+        <div class="content-texte box">
+          <img
+              class="imgENI"
+              src="../../assets/img/Various/crd.png"
+              alt="Image"
+              height="128"
+              width="128"
+          />
+          <strong>2017 - 2018 : Formation Réparateur en produits High Tech</strong><br/>
+          <br>CR-Consulting Conseil - La Roche Sur Yon 85000
+        </div>
+        </p>
+          <p class="subtitle">
+          <div class="content-texte box">
+            <img
+                class="imgENI"
+                src="../../assets/img/Various/sen.png"
+                alt="Image"
+                height="128"
+                width="128"
+            />
+            <strong>2010 : Bac Pro Système Electronique et numérique (SEN)</strong><br/>
+            <br>Lycée professionnel Jacques Brel - Choisy-le-Roi 94000
+          </div>
+          </p>
     </div>
   </article>
 </template>
 
-<style>
-.message.is-primary .message-header {
-  display: inline-grid;
+<script>
+export default {
+  name: "about-me",
+};
+</script>
+
+<style scoped>
+
+
+.message-header {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.message-body{
+  display: flex !important;
+  flex-direction: column;
 }
 
-.card {
+.imgENI {
+  border-radius: 5%;
+  float: left;
+  margin-left: 3rem;
+  margin-right: 10rem;
+}
+
+.content-texte {
+  text-align-last: start;
 }
 </style>

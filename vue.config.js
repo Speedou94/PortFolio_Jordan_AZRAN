@@ -4,10 +4,10 @@ module.exports = defineConfig({
   lintOnSave: false,
   devServer: {
     proxy: {
-      '^/app3': {
-        target: 'http://localhost:3000',
-        changeOrigin: true
+      "^/app3": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
       },
-    }
-  }
+    },
+  },
 });

@@ -12,11 +12,8 @@
 </template>
 
 <style lang="scss" scoped>
-
 .footer {
   background-color: darkgray;
   padding: 1rem;
-
 }
-
 </style>

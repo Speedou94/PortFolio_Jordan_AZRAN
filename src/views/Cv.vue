@@ -1,14 +1,14 @@
 <template>
   <div class="competences">
-  <Skill />
-  <Experience />
-  <Techno /><br>
-  <IDE />
+    <Skill />
+    <Experience />
+    <Techno /><br />
+    <IDE />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.competences{
+.competences {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

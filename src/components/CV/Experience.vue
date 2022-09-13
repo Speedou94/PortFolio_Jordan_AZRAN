@@ -1,99 +1,132 @@
 <template>
-  <article class="message is-primary">
+  <article class="message is-dark">
     <div class="message-header">
-      <p>Mes Expériences Professionnelle</p>
-      <div class="card">
-        <div class="card-content">
-          <div class="content">
-            <img
-              src="../../assets/img/CRC.png"
-              alt=""
-              height="128"
-              width="128"
-            />
-            <p>2019 - 2021 : Résponsable du centre de formation</p>
-            <p>CR-Consulting Conseil - La Roche Sur Yon 85000</p>
-            <br />
-            <p>
-              Chargé d'établir un programme de formation complet et efficace
+      <p>Mes principales formations</p>
+    </div>
+    <div class="message-body is-flex">
+
+      <p class="subtitle">
+      <div class="content-texte box">
+        <img
+            class="imgskill"
+            src="../../assets/img/Various/CRC.png"
+            alt="Image"
+            height="128"
+            width="128"
+        />
+        <strong>CR-Consulting Conseil</strong><br/>
+        <p><u><strong>2019 - 2021</strong></u></p>
+
+        Résponsable du centre de formation :
+        <div class="list">
+          <ul>
+            <li>
+              1.Chargé d'établir un programme de formation complet et efficace
               afin d'assurer une formation qualitative en 11 semaines.
-            </p>
-            <p>
-              Dispenser des sessions de formation en présentiel ou en distanciel
-            </p>
-            <p>
-              Gérer les plannings de formations pour les collaborateurs interne
-              et externe à la société à n+1
-            </p>
-          </div>
-          <div class="content">
-            <img
-              src="../../assets/img/crd.png"
-              alt=""
-              height="128"
-              width="128"
-            />
-            <p>
-              2019 - 2019 : Responsable des achats et revente de pièces
-              détachées
-            </p>
-            <p>CR-Digital - La Roche Sur Yon 85000</p>
-            <p>
-              Chargé d'achats et reventes de pièces détachées pour produits High
+            </li>
+            <li>
+              2.Dispenser des sessions de formation en présentiel ou en
+              distanciel
+            </li>
+            <li>
+              3.Gérer les plannings de formations pour les collaborateurs interne et externe à la société à n+1
+            </li>
+          </ul>
+        </div>
+      </div>
+      </p>
+
+      <div class="content-texte box">
+        <img
+            class="imgskill"
+            src="../../assets/img/Various/crd.png"
+            alt="Image"
+            height="128"
+            width="128"
+        />
+        <strong>CR-Digital</strong><br/>
+        <u><strong>2019 - 2019</strong></u><br>
+
+        Responsable des achats et revente de pièces
+        détachées :<br>
+        <div class="list">
+          <ul>
+            <li>
+              1.Chargé d'achats et reventes de pièces détachées pour produits
               Tech (Smartphones, Ordinateurs, objets connectés etc..
-            </p>
-            <p>
-              Négociations avec les fournisseurs historiques et recherche de
+            </li>
+            <br>
+            <li>
+              2.Négociations avec les fournisseurs historiques et recherche de
               nouveaux fournisseurs.
-            </p>
-            <p>
-              Préparation et expéditions de colis vers les différents points de
+            </li>
+            <li>
+              3.Préparation et expéditions de colis vers les différents points
               vente.
-            </p>
-          </div>
-          <div class="content">
-            <img
-              src="../../assets/img/cash.png"
-              alt=""
-              height="128"
-              width="128"
-            />
-            <p>2017 - 2019 : Technicien réparateur en produit High Tech</p>
-            <p>Cash & Repair - Nantes 44000</p>
-            <p>Etablir un diagnostic précis et effectuer la réparation</p>
-            <p>
-              Conseiller les clients sur leurs choix d'appareils et sur une
-              eventuelle réparation
-            </p>
-            <p>Veille permanante sur les nouveautées Hardware et Software</p>
-            <br />
-          </div>
-          <div class="content">
-            <img
-              src="../../assets/img/latour.png"
-              alt=""
-              height="128"
-              width="128"
-            />
-            <p>
-              2015 - 2017 : Résponsable des ventes, remorques et pièces
-              détachées
-            </p>
-            <p>Latour Sport Vacances - 44000 Nantes</p>
-            <p>Accueillir et conseiller le client sur son besoin</p>
-            <p>
-              Recherche et visite des fournisseurs de remorques et pièces
-              détachées
-            </p>
-            <p>Gestion des stocks magasin</p>
-            <p>Montage d'attelage sur VL et Camping Car</p>
-            <br />
-          </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-texte box">
+        <img
+            class="imgskill"
+            src="../../assets/img/Various/cash.png"
+            alt="Image"
+            height="128"
+            width="128"
+        />
+        <strong>Cash & Repair</strong><br/>
+        <u><strong>2017 - 2019</strong></u><br>
+
+        Technicien réparateur en produit High Tech :<br>
+        <div class="list">
+          <ul>
+            <li>
+              1.Effectuer un diagnostic complet d'un appareil afin de chiffrer une possible réparation
+            </li>
+            <br>
+            <li>
+              2.Conseiller les clients sur un potentiel achat, une réparation ou simplement une question concernant les nouvelles technologies.
+            </li>
+            <li>
+              3.Gestion des planning de l'atelier, de la caisse et des commandes de pièces détachées.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </article>
 </template>
-<style lang="scss" scoped>
 
+<script>
+export default {
+  name: "about-me",
+};
+</script>
+
+<style scoped>
+
+
+.message-header {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.message-body {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.imgskill {
+  border-radius: 5%;
+  float: left;
+  margin-left: 3rem;
+  margin-right: 10rem;
+}
+
+.content-texte {
+  text-align-last: start;
+}
 </style>
