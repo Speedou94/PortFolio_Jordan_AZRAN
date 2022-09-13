@@ -26,10 +26,10 @@
   <br/>
   <div class="projects">
     <ENI/>
-  </div>
+  </div><br><br>
   <div class="contact-me">
     <contact-me/>
-  </div>
+  </div><br><br><br>
 </template>
 
 <script>
@@ -68,4 +68,5 @@ export default {
   color: rgb(255, 255, 255);
   padding: 120px;
 }
+
 </style>

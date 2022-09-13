@@ -1,81 +1,86 @@
 <template>
-  <form class="form">
-    <div class="field">
-      <label class="label">Nom</label>
-      <div class="control">
-        <input
-          class="input"
-          type="text"
-          placeholder="Votre nom"
-          v-model="lastName"
-        />
-      </div>
-    </div>
-
-    <div class="field">
-      <label class="label">Prénom</label>
-      <div class="control has-icons-left has-icons-right">
-        <input
-          class="input"
-          type="text"
-          placeholder="Votre prénom"
-          v-model="firstName"
-        />
-        <span class="icon is-small is-left">
-          <i class="fas fa-user"></i>
-        </span>
-        <span class="icon is-small is-right">
-          <i class="fas fa-check"></i>
-        </span>
-      </div>
-    </div>
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control has-icons-left has-icons-right">
-        <input
-          class="input"
-          type="email"
-          placeholder="Votre email"
-          v-model="email"
-        />
-      </div>
-      <div class="field">
-        <label class="label">Sujet</label>
+  <div class="message-header">
+    <p>N'hésitez pas à me contactez :)</p>
+  </div>
+  <div class="container w-50 mt-5">
+    <form class="form">
+      <div class="field"><br>
+        <label class="label">Nom</label>
         <div class="control">
           <input
-            class="input"
-            type="text"
-            placeholder="Sujet"
-            v-model="sujet"
+              class="input"
+              type="text"
+              placeholder="Votre nom"
+              v-model="lastName"
           />
         </div>
-        <span class="icon is-small is-left">
-          <i class="fas fa-envelope"></i>
-        </span>
-        <span class="icon is-small is-right">
-          <i class="fas fa-exclamation-triangle"></i>
-        </span>
       </div>
+
       <div class="field">
-        <label class="label">Message</label>
-        <div class="control">
-          <textarea
-            class="textarea"
-            placeholder="Textarea"
-            v-model="message"
-          ></textarea>
+        <label class="label">Prénom</label>
+        <div class="control has-icons-left has-icons-right">
+          <input
+              class="input"
+              type="text"
+              placeholder="Votre prénom"
+              v-model="firstName"
+          />
+          <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+          <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
         </div>
       </div>
-    </div>
-    <div class="field is-grouped">
-      <div class="control">
-        <button class="button is-link" @click="send()">Valider</button>
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input
+              class="input"
+              type="email"
+              placeholder="Votre email"
+              v-model="email"
+          />
+        </div>
+        <div class="field">
+          <label class="label">Sujet</label>
+          <div class="control">
+            <input
+                class="input"
+                type="text"
+                placeholder="Sujet"
+                v-model="sujet"
+            />
+          </div>
+          <span class="icon is-small is-left">
+          <i class="fas fa-envelope"></i>
+        </span>
+          <span class="icon is-small is-right">
+          <i class="fas fa-exclamation-triangle"></i>
+        </span>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+          <textarea
+              class="textarea"
+              placeholder="Laissez moi un message ici :)"
+              v-model="message"
+          ></textarea>
+          </div>
+        </div>
       </div>
-      <div class="control">
-        <button class="button is-link is-light">Annuler</button>
+      <div class="field is-grouped is-">
+        <div class="control">
+          <button class="button is-link" @click="send()">Valider</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Annuler</button>
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </template>
 
 <script>
@@ -105,4 +110,6 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

@@ -1,7 +1,7 @@
 <template>
   <article class="message is-dark">
     <div class="message-header">
-      <p>Mes principales formations</p>
+      <p>Mes dernières experiences professionnelle</p>
     </div>
     <div class="message-body is-flex">
 
@@ -21,15 +21,14 @@
         <div class="list">
           <ul>
             <li>
-              1.Chargé d'établir un programme de formation complet et efficace
-              afin d'assurer une formation qualitative en 11 semaines.
+              1.Etablir un programme de formation complet afin d'assurer une formation qualitative en 11 semaines.
             </li>
             <li>
               2.Dispenser des sessions de formation en présentiel ou en
-              distanciel
+              distanciel.
             </li>
             <li>
-              3.Gérer les plannings de formations pour les collaborateurs interne et externe à la société à n+1
+              3.Gérer les plannings de formations pour les collaborateurs interne et externe à la société à n+1.
             </li>
           </ul>
         </div>
@@ -46,16 +45,14 @@
         />
         <strong>CR-Digital</strong><br/>
         <u><strong>2019 - 2019</strong></u><br>
-
         Responsable des achats et revente de pièces
-        détachées :<br>
+        détachées :
         <div class="list">
           <ul>
             <li>
               1.Chargé d'achats et reventes de pièces détachées pour produits
-              Tech (Smartphones, Ordinateurs, objets connectés etc..
+              Tech.
             </li>
-            <br>
             <li>
               2.Négociations avec les fournisseurs historiques et recherche de
               nouveaux fournisseurs.
@@ -77,16 +74,15 @@
         />
         <strong>Cash & Repair</strong><br/>
         <u><strong>2017 - 2019</strong></u><br>
-
-        Technicien réparateur en produit High Tech :<br>
+        Technicien réparateur en produit High Tech :
         <div class="list">
           <ul>
             <li>
               1.Effectuer un diagnostic complet d'un appareil afin de chiffrer une possible réparation
             </li>
-            <br>
             <li>
-              2.Conseiller les clients sur un potentiel achat, une réparation ou simplement une question concernant les nouvelles technologies.
+              2.Conseiller les clients sur un potentiel achat, une réparation ou simplement une question concernant les
+              nouvelles technologies.
             </li>
             <li>
               3.Gestion des planning de l'atelier, de la caisse et des commandes de pièces détachées.
@@ -128,5 +124,9 @@ export default {
 
 .content-texte {
   text-align-last: start;
+}
+
+.list {
+  display: flex;
 }
 </style>

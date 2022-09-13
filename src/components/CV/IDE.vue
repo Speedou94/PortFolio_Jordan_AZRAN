@@ -1,60 +1,74 @@
 <template>
-  <article class="message is-success">
+  <article>
     <div class="message-header">
-      <p>Les IDE</p>
+      <p>Les IDE que j'utilise au quotidien</p>
     </div>
-    <div class="message-body">
-      <div class="icons-tecnho">
-        <img
-          src="../../assets/img/IDE/eclipse.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-        <img
-          src="../../assets/img/IDE/IntelliJ.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-        <img
-          src="../../assets/img/IDE/WebStorms.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-        <img
-          src="../../assets/img/IDE/PhpStorm.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-        <img
-          src="../../assets/img/IDE/vsc.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-        <img
-          src="../../assets/img/IDE/Github.png"
-          alt="Image"
-          height="64"
-          width="64"
-        />
-
+    <br><br>
+    <div class="icons is-flex">
+      <div class="">
+        <div class="media-left">
+          <p class="image is-64x64">
+            <img src="../../assets/img/IDE/eclipse.png">
+          </p>
+        </div>
+      </div>
+      <div class=" ">
+        <div class="media-left">
+          <p class="image is-64x64">
+            <img src="../../assets/img/IDE/IntelliJ.png">
+          </p>
+        </div>
+      </div>
+      <div class=" ">
+        <div class="media-left">
+          <p class="image is-64x64">
+            <img src="../../assets/img/IDE/PhpStorm.png">
+          </p>
+        </div>
+      </div>
+      <div class=" ">
+        <div class="media-left">
+          <p class="image is-64x64">
+            <img src="../../assets/img/IDE/WebStorms.png">
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class=" ">
+        <div class="media-left">
+          <p class="image is-64x64">
+            <img src="../../assets/img/IDE/vsc.png">
+          </p>
+        </div>
       </div>
     </div>
   </article>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
+
+
 .message-header {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
 }
 
-.message.is-success {
-  display: inline-table;
+.message-body {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.imgTechno {
   border-radius: 5%;
-  background-color: none;
+  float: left;
+  margin-left: 3rem;
+  margin-right: 10rem;
+}
+
+.content-texte {
+  text-align-last: start;
 }
 </style>
 
