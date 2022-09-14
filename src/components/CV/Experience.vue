@@ -45,8 +45,7 @@
         />
         <strong>CR-Digital</strong><br/>
         <u><strong>2019 - 2019</strong></u><br>
-        <strong>Responsable des achats et revente de pièces</strong>
-        détachées :
+        <strong>Responsable des achats et revente de pièces détachées :</strong>
         <div class="list">
           <ul>
             <li>

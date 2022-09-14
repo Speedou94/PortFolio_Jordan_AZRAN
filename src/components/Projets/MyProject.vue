@@ -1,8 +1,8 @@
 <template>
-    <div class="message-header">
-      <p>Mes projets : En cours ou terminé</p>
-    </div>
-    <br><br>
+  <div class="message-header">
+    <p>Mes projets : En cours ou terminé</p>
+  </div>
+  <br><br>
   <div class="card container">
     <header class="card-header">
       <p class="card-header-title">
@@ -60,7 +60,7 @@
   align-items: center;
 }
 
-.card-header-title{
+.card-header-title {
   background-color: darkgoldenrod;
 }
 

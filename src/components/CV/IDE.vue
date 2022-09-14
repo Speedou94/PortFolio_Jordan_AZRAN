@@ -42,6 +42,13 @@
             </p>
           </div>
         </div>
+        <div class=" ">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/Github.png">
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </article>
