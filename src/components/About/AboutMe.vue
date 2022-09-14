@@ -3,7 +3,7 @@
     <div class="message-header">
       <p>Qui je suis ?</p>
     </div>
-    <div class="message-body is-flex">
+    <div class="message-body is-flex container">
 
       <p class="subtitle">
       <div class="content-texte box">

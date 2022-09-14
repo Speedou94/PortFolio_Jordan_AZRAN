@@ -2,7 +2,7 @@
   <div class="message-header">
     <p>N'hésitez pas à me contactez :)</p>
   </div>
-  <div class="container w-50 mt-5">
+  <div class="container is-centered mt-5">
     <form class="form">
       <div class="field"><br>
         <label class="label">Nom</label>
@@ -111,5 +111,11 @@ export default {
 </script>
 
 <style scoped>
+
+.message-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 </style>

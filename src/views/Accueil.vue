@@ -3,7 +3,7 @@
     <h1 class="title mt-6 has-font-ubuntu">
       Jordan AZRAN<br/>
       Developpeur Web & Web Mobile <br>
-      En recherche de stage du 17 octobre au 9 decembre 2022</h1>
+    </h1>
   </div>
   <br>
   <div class="aboutme">
@@ -20,16 +20,18 @@
   <div class="cv-langage">
     <Techno/>
   </div>
-    <div class="cv-ide">
+  <div class="cv-ide">
     <IDE/>
   </div>
   <br/>
-  <div class="projects">
-    <ENI/>
-  </div><br><br>
+  <div class="MesProjets">
+    <MyProject/>
+  </div>
+  <br><br>
   <div class="contact-me">
     <contact-me/>
-  </div><br><br><br>
+  </div>
+  <br><br><br>
 </template>
 
 <script>
@@ -38,19 +40,19 @@ import MonCv from "/src/components/CV/Experience";
 import Skill from "@/components/CV/Skill";
 import Techno from "@/components/CV/Techno";
 import IDE from "@/components/CV/IDE";
-import ENI from "@/components/Projets/ENI";
 import ContactMe from "@/views/ContactMe";
+import MyProject from "@/components/Projets/MyProject";
 
 export default {
   name: "Accueil-page",
   components: {
     ContactMe,
-    ENI,
     IDE,
     Techno,
     Skill,
     MonCv,
     AboutMe,
+    MyProject,
   },
   data() {
     return {};

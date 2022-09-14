@@ -20,12 +20,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <router-link to="/" class="navbar-item"> Accueil </router-link>
-        <router-link to="/aboutme" class="navbar-item"
-          >A propos de moi
-        </router-link>
-        <router-link to="/cv" class="navbar-item">Mon CV</router-link>
-        <router-link to="/projets" class="navbar-item">Mes Projets</router-link>
+        <router-link to="/accueil" class="navbar-item"> Jordan Azran </router-link>
         <a class="navbar-item" href="https://github.com/Speedou94"
           >Mon GitHub</a
         >

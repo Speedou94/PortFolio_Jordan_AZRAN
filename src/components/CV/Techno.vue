@@ -1,10 +1,10 @@
 <template>
   <article>
-    <div class="message-header">
+    <div class="message-header ">
       <p>Les langages que j'utilise</p>
     </div>
     <br><br>
-    <div class="icons is-flex">
+    <div class="icons is-flex container">
       <div class="">
         <div class="media-left">
           <p class="image is-64x64">
@@ -82,27 +82,16 @@ export default {
 
 <style scoped>
 
+.icons{
+  display: flex !important;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
 
 .message-header {
-  display: flex !important;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-}
-
-.message-body {
-  display: flex !important;
-  flex-direction: column;
-}
-
-.imgTechno {
-  border-radius: 5%;
-  float: left;
-  margin-left: 3rem;
-  margin-right: 10rem;
-}
-
-.content-texte {
-  text-align-last: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 </style>

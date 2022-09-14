@@ -1,9 +1,9 @@
 <template>
   <article class="message is-dark">
-    <div class="message-header">
+    <div class="message-header ">
       <p>Mes dernières experiences professionnelle</p>
     </div>
-    <div class="message-body is-flex">
+    <div class="message-body is-flex container">
 
       <p class="subtitle">
       <div class="content-texte box">
@@ -17,18 +17,18 @@
         <strong>CR-Consulting Conseil</strong><br/>
         <p><u><strong>2019 - 2021</strong></u></p>
 
-        Résponsable du centre de formation :
+      <strong>Résponsable du centre de formation :</strong>
         <div class="list">
           <ul>
             <li>
-              1.Etablir un programme de formation complet afin d'assurer une formation qualitative en 11 semaines.
+              1. Etablir un programme de formation complet afin d'assurer une formation qualitative en 11 semaines.
             </li>
             <li>
-              2.Dispenser des sessions de formation en présentiel ou en
-              distanciel.
+              2. Dispenser des sessions de formation.
+              .
             </li>
             <li>
-              3.Gérer les plannings de formations pour les collaborateurs interne et externe à la société à n+1.
+              3. Géstion des plannings de formations pour les collaborateurs à n+1.
             </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@
         />
         <strong>CR-Digital</strong><br/>
         <u><strong>2019 - 2019</strong></u><br>
-        Responsable des achats et revente de pièces
+        <strong>Responsable des achats et revente de pièces</strong>
         détachées :
         <div class="list">
           <ul>
@@ -74,7 +74,7 @@
         />
         <strong>Cash & Repair</strong><br/>
         <u><strong>2017 - 2019</strong></u><br>
-        Technicien réparateur en produit High Tech :
+        <strong>Technicien réparateur en produit High Tech :</strong>
         <div class="list">
           <ul>
             <li>
@@ -104,10 +104,9 @@ export default {
 
 
 .message-header {
-  display: flex !important;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .message-body {

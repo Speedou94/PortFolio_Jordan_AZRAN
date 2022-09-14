@@ -4,16 +4,16 @@ import Accueil from "../views/Accueil.vue";
 import ContactMe from "../views/ContactMe.vue";
 import AboutMe from "../components/About/AboutMe.vue";
 import Cv from "../views/Cv.vue";
-import Projects from "../views/Projects.vue";
+import Projects from "../components/Projets/MyProject.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/accueil",
     name: "layout",
     component: Layout,
     children: [
       {
-        path: "/",
+        path: "/accueil",
         name: "Accueil-page",
         component: Accueil,
       },

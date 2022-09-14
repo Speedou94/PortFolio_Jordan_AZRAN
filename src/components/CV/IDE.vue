@@ -4,41 +4,43 @@
       <p>Les IDE que j'utilise au quotidien</p>
     </div>
     <br><br>
-    <div class="icons is-flex">
-      <div class="">
-        <div class="media-left">
-          <p class="image is-64x64">
-            <img src="../../assets/img/IDE/eclipse.png">
-          </p>
+    <div class="icones container">
+      <div class="icons is-flex">
+        <div class="">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/eclipse.png">
+            </p>
+          </div>
         </div>
-      </div>
-      <div class=" ">
-        <div class="media-left">
-          <p class="image is-64x64">
-            <img src="../../assets/img/IDE/IntelliJ.png">
-          </p>
+        <div class=" ">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/IntelliJ.png">
+            </p>
+          </div>
         </div>
-      </div>
-      <div class=" ">
-        <div class="media-left">
-          <p class="image is-64x64">
-            <img src="../../assets/img/IDE/PhpStorm.png">
-          </p>
+        <div class=" ">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/PhpStorm.png">
+            </p>
+          </div>
         </div>
-      </div>
-      <div class=" ">
-        <div class="media-left">
-          <p class="image is-64x64">
-            <img src="../../assets/img/IDE/WebStorms.png">
-          </p>
+        <div class=" ">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/WebStorms.png">
+            </p>
+          </div>
         </div>
-      </div>
-      <br>
-      <div class=" ">
-        <div class="media-left">
-          <p class="image is-64x64">
-            <img src="../../assets/img/IDE/vsc.png">
-          </p>
+        <br>
+        <div class=" ">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/vsc.png">
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -49,26 +51,16 @@
 
 
 .message-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icons {
   display: flex !important;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-}
-
-.message-body {
-  display: flex !important;
-  flex-direction: column;
-}
-
-.imgTechno {
-  border-radius: 5%;
-  float: left;
-  margin-left: 3rem;
-  margin-right: 10rem;
-}
-
-.content-texte {
-  text-align-last: start;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
 }
 </style>
 

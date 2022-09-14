@@ -15,5 +15,7 @@
 .footer {
   background-color: darkgray;
   padding: 1rem;
+  background-color: darkgoldenrod;
+
 }
 </style>
