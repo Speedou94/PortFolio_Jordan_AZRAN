@@ -1,4 +1,5 @@
 <template>
+  <navbar></navbar>
   <div class="Accueil">
     <h1 class="title mt-6 has-font-ubuntu">
       Jordan AZRAN<br/>
@@ -31,6 +32,7 @@
     <contact-me/>
   </div>
   <br><br><br>
+  <Footer></Footer>
 </template>
 
 <script>
@@ -41,10 +43,13 @@ import Techno from "@/components/CV/Techno";
 import IDE from "@/components/CV/IDE";
 import ContactMe from "@/views/ContactMe";
 import MyProject from "@/components/Projets/MyProject";
+import Footer from "@/components/utils/Footer";
+import Navbar from "@/components/utils/navbar";
 
 export default {
-  name: "Accueil-page",
+  name: "Accueil",
   components: {
+    Navbar,
     ContactMe,
     IDE,
     Techno,
@@ -52,6 +57,8 @@ export default {
     MonCv,
     AboutMe,
     MyProject,
+    // eslint-disable-next-line vue/no-unused-components
+    Footer,
   },
   data() {
     return {};

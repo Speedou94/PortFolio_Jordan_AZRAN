@@ -2,7 +2,7 @@
   <div class="message-header">
     <p>N'hésitez pas à me contactez :)</p>
   </div>
-  <div class="container is-centered mt-5">
+  <div class="container is-centered mt-7">
     <form class="form">
       <div class="field"><br>
         <label class="label">Nom</label>
@@ -18,31 +18,21 @@
 
       <div class="field">
         <label class="label">Prénom</label>
-        <div class="control has-icons-left has-icons-right">
           <input
               class="input"
               type="text"
               placeholder="Votre prénom"
               v-model="firstName"
           />
-          <span class="icon is-small is-left">
-          <i class="fas fa-user"></i>
-        </span>
-          <span class="icon is-small is-right">
-          <i class="fas fa-check"></i>
-        </span>
-        </div>
       </div>
       <div class="field">
         <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
           <input
               class="input"
               type="email"
               placeholder="Votre email"
               v-model="email"
           />
-        </div>
         <div class="field">
           <label class="label">Sujet</label>
           <div class="control">
@@ -71,12 +61,15 @@
           </div>
         </div>
       </div>
-      <div class="field is-grouped is-">
-        <div class="control">
-          <button class="button is-link" @click="send()">Valider</button>
-        </div>
-        <div class="control">
-          <button class="button is-link is-light">Annuler</button>
+      <br><br>
+      <div class="btn-contact">
+        <div class="field is-grouped is-">
+          <div class="control">
+            <button class="button is-link" @click="send()">Valider</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Annuler</button>
+          </div>
         </div>
       </div>
     </form>
@@ -116,6 +109,17 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.btn-contact {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.form{
+  width: 50rem;
+  display: inline-block;
 }
 
 </style>
