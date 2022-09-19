@@ -8,12 +8,12 @@ import Projects from "../components/Projets/MyProject.vue";
 
 const routes = [
   {
-    path: "/accueil",
-    name: "layout",
+    path: "/Accueil",
+    name: "Accueil",
     component: Layout,
     children: [
       {
-        path: "/accueil",
+        path: "/Accueil",
         name: "Accueil-page",
         component: Accueil,
       },

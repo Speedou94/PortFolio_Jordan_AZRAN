@@ -5,7 +5,6 @@
       Developpeur Web & Web Mobile <br>
       Disponible de suite sur les secteurs de La Roche Sur Yon (85) et Montpellier (34)     </h1>
   </div>
-  <br>
   <div class="aboutme">
     <aboutMe/>
   </div>
