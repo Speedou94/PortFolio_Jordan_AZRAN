@@ -1,5 +1,5 @@
 # portfospeedou
-
+Bienvenue sur mon portfolio et merci de l'interêt que vous y portez :)
 ## Project setup
 ```
 npm install
