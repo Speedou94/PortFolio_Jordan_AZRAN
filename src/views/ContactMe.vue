@@ -110,16 +110,16 @@ export default {
   flex-direction: row;
   justify-content: space-around;
 }
+.form{
+  max-width: 55%;
+  margin: 6rem auto 4rem;
+  background-color: #fff;
+}
 
 .btn-contact {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-}
-
-.form{
-  width: 50rem;
-  display: inline-block;
 }
 
 </style>

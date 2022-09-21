@@ -2,125 +2,115 @@
   <div class="message-header">
     <p>Mes projets : En cours ou terminé</p>
   </div>
-  <br><br>
-  <div class="project">
-  <div class="card container mt-3">
-    <header class="card-header">
-      <p class="card-header-title">
-        ENI-Enchères
-      </p>
-    </header>
-    <div class="card-content">
-      <p class="image is-128x128">
-        <img src="../../assets/img/Various/eniE.png">
-      </p>
-      <div class="content">
-        Projet de groupe sur une webapp d'encheres ,<br> faite en J2E et TomCat.<br> Travail par groupe de 3 personnes.
-        <br>
-      </div>
-    </div>
-    <footer class="card-footer">
-      <a href="https://github.com/Speedou94/ENI-ENCHERE" class="card-footer-item">Repository GitHub</a>
-    </footer>
-  </div>
-  <br><br>
-    <div class="card container mt-3">
-    <header class="card-header">
-      <p class="card-header-title">
-        LCDE Photo </p>
-    </header>
-    <div class="card-content">
-      <p class="image is-128x128">
-        <img src="../../assets/img/Various/wip.png">
-      </p>
-      <div class="content">
-        Projet de Book photo en VueJS.<br>
-        Galeries photo,<br>
-        page d'informations avec formulaire.<br>
-      </div>
-    </div>
-    <footer class="card-footer">
-      <a href="https://github.com/Speedou94/LCDEPhotoVueJS" class="card-footer-item">Repository GitHub</a>
-    </footer>
-  </div>
-  <br><br>
-    <div class="card container mt-3">
-    <header class="card-header">
-      <p class="card-header-title">
-        PortFolio Jordan Azran </p>
-    </header>
-    <div class="card-content">
-      <p class="image is-128x128">
-        <img src="../../assets/img/Various/wip.png">
-      </p>
-      <div class="content">
-        Je vous partage également le code de mon portefolio.<br>
-        Créer en VueJs avec un backOffice en NodeJs.<br>
-        Il est en constant évolution, n'hésitez pas à le consulter de temps en temps pour voir les améliorations.
-        <br>
-      </div>
-    </div>
-    <footer class="card-footer">
-      <a href="https://github.com/Speedou94/PortFolio_Jordan_AZRAN" class="card-footer-item">Repository GitHub</a>
-    </footer>
-  </div>
-    <div class="card container mt-3">
-      <header class="card-header">
-        <p class="card-header-title">
-          ENI-Sortie </p>
-      </header>
-      <div class="card-content">
-        <p class="image is-128x128">
-          <img src="../../assets/img/Various/logoenisortir.png">
-        </p>
-        <div class="content">
-          Je vous partage également le code de mon portefolio.<br>
-          Créer en VueJs avec un backOffice en NodeJs.<br>
-          Il est en constant évolution, n'hésitez pas à le consulter de temps en temps pour voir les améliorations.
-          <br>
+  <section class="" id="projects">
+    <div class="my-project">
+      <div class="card is-flex-direction-column" v-for="projet in projets" :key="projet.id">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-128x128">
+                <img :src="projet.src" alt="Placeholder image"/>
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">{{ projet.name }}</p><br><br>
+              <p class="subtitle is-6">{{ projet.typeDeProjet }}</p><br>
+            </div>
+          </div>
+
+          <div class="content">
+            {{ projet.techno }} <br/>
+            {{ projet.sujet }}
+          </div>
         </div>
+        <footer class="card-footer">
+          <a :href="projet.lienGit" target="_blank" class="card-footer-item"
+          >Voir sur GitHub</a
+          >
+
+        </footer>
       </div>
-      <footer class="card-footer">
-        <a href="https://github.com/Speedou94/PortFolio_Jordan_AZRAN" class="card-footer-item">Repository GitHub</a>
-      </footer>
     </div>
-  </div>
+  </section>
+
 </template>
+
+<script>
+export default {
+  name: "MyProject",
+  data() {
+    return {
+      projets: [
+        {
+          id: 0,
+          name: "ENI-Enchères",
+          typeDeProjet: "Projet de formation",
+          gitHub: "https://github.com/Speedou94/ENI-ENCHERE",
+          src: require("@/assets/img/Various/eniE.png"),
+          techno: "JAVAEE 9, TomCat 9 et JSTL",
+          sujet:
+              "Projet de groupe dans le cadre de ma formation à l'ENI. Développer une WebApp. " +
+              "Nous étions un groupe de 3 etudiants à travailler ensemble sur un site permettant de mettre en vente ses objets et d'en acheter.",
+        },
+        {
+          id: 1,
+          name: "LCDE Photographie",
+          typeDeProjet: "Projet personnel",
+          lienGit: "https://github.com/Speedou94/LCDEPhotoVueJS",
+          src: require("@/assets/img/Various/wip.png"),
+          techno: "VueJs + Bulma + NodeJs(express)",
+          sujet:
+              "Book photo servant à ma compagne afin de faire partager son travail de photographe",
+        },
+        {
+          id: 2,
+          name: "PorteFolio Jordan Azran",
+          typeDeProjet: "Projet principal",
+          lienGit: "https://github.com/Speedou94/PortFolio_Jordan_AZRAN",
+          src: require("@/assets/img/Various/wip.png"),
+          techno: "VueJs + Bulma + NodeJs(express)",
+          sujet:
+              "Portfolio, projet en parallel de ma formation à l'ENI et me permettant de partager mon travail en ligne.",
+        },
+        {
+          id: 2,
+          name: "ENI-Sortir",
+          typeDeProjet: "Projet de formation",
+          lienGit: "https://www.flaticon.com/free-icon/work-in-progress_5578703",
+          src: require("@/assets/img/Various/logoenisortir.png"),
+          techno: "Symfony + Bootstrap + JavaScript + EasyAdmin",
+          sujet:
+              "Projet de groupe dans le cadre de ma formation à l'ENI. Développer une WebApp. " +
+              "Nous étions un groupe de 4 etudiants à travailler ensemble sur un site proposant diverses sorties entre étudiants.",
+        },
+      ],
+    };
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 
-.project{
+.my-project {
+  margin-top: 2rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;}
-
-.image {
-  height: 128px;
-  width: 128px;
-  display: inline-flex;
+  justify-content: center;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 30rem;
-  align-items: stretch;
-  justify-content: space-around;
+  width: 350px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 3rem;
+  text-align: center;
 }
 
-.card-header-title {
-  background-color: darkgoldenrod;
+.title {
+  text-align: left;
+}
+.content{
+  text-align: center;
 }
 
-.message-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 </style>
-
-<script>
-
-</script>
