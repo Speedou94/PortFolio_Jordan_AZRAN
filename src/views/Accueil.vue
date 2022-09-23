@@ -4,7 +4,7 @@
     <h1 class="title mt-6 has-font-ubuntu">
       Jordan AZRAN<br/>
       Developpeur Web & Web Mobile <br>
-      Disponible de suite sur les secteurs de La Roche Sur Yon (85) et Montpellier (34)     </h1>
+      Disponible de suite sur les secteurs de La Roche Sur Yon (85) et Montpellier (34) </h1>
   </div>
   <div class="aboutme">
     <aboutMe/>
