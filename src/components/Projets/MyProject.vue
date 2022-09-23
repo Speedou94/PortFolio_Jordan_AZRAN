@@ -74,9 +74,9 @@ export default {
         },
         {
           id: 2,
-          name: "ENI-Sortir",
+          name: "ENI-Sortie",
           typeDeProjet: "Projet de formation",
-          lienGit: "https://www.flaticon.com/free-icon/work-in-progress_5578703",
+          lienGit: "https://github.com/Speedou94/ENI-Sortie",
           src: require("@/assets/img/Various/logoenisortir.png"),
           techno: "Symfony + Bootstrap + JavaScript + EasyAdmin",
           sujet:
