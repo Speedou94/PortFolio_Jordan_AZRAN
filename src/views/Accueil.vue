@@ -1,10 +1,8 @@
 <template>
   <navbar></navbar>
   <div class="Accueil">
-    <h1 class="title mt-6 has-font-ubuntu">
-      Jordan AZRAN<br/>
-      Developpeur Web & Web Mobile <br>
-      Disponible de suite sur les secteurs de La Roche Sur Yon (85) et Montpellier (34) </h1>
+    <h1 class="title mt-6 has-font-ubuntu">Jordan Azran
+    </h1>
   </div>
   <div class="aboutme">
     <aboutMe/>
@@ -68,13 +66,12 @@ export default {
 
 <style scoped>
 .title {
-  background-image: url("../assets/img/Various/bann.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
   background-size: cover;
-  color: rgb(255, 255, 255);
-  padding: 120px;
+  color: black;
+  padding: 12px;
 }
 
 </style>

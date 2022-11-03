@@ -1,44 +1,57 @@
 <template>
   <article>
     <div class="message-header">
-      <p>Les IDE que j'utilise au quotidien</p>
+      <p>Les Utilitaires que j'utilise au quotidien</p>
     </div>
-    <br><br>
+    <br/><br/>
     <div class="icones container">
       <div class="icons is-flex">
         <div class="">
           <div class="media-left">
             <p class="image is-64x64">
-              <img src="../../assets/img/IDE/eclipse.png">
+              <img src="../../assets/img/IDE/eclipse.png" alt="logo Eclipse">
             </p>
           </div>
         </div>
-        <div class=" ">
+        <div class="icons is-flex">
           <div class="media-left">
             <p class="image is-64x64">
-              <img src="../../assets/img/IDE/IntelliJ.png">
+              <img src="../../assets/img/IDE/IntelliJ.png" alt="Logo Intellij">
             </p>
           </div>
         </div>
-        <div class=" ">
+        <div class="icons is-flex">
           <div class="media-left">
             <p class="image is-64x64">
-              <img src="../../assets/img/IDE/PhpStorm.png">
+              <img src="../../assets/img/IDE/PhpStorm.png" alt="Logo PhpStorm">
             </p>
           </div>
         </div>
-        <div class=" ">
+        <div class="icons is-flex">
           <div class="media-left">
             <p class="image is-64x64">
-              <img src="../../assets/img/IDE/WebStorms.png">
+              <img src="../../assets/img/IDE/WebStorms.png" alt="Logo WebStorm">
             </p>
           </div>
         </div>
-        <br>
-        <div class=" ">
+        <div class="icons is-flex">
           <div class="media-left">
             <p class="image is-64x64">
-              <img src="../../assets/img/IDE/vsc.png">
+              <img src="../../assets/img/IDE/vsc.png" alt="Logo Vsc">
+            </p>
+          </div>
+        </div>
+        <div class="icons is-flex">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/androidStudio.png" alt="Logo Android Studio">
+            </p>
+          </div>
+        </div>
+        <div class="icons is-flex">
+          <div class="media-left">
+            <p class="image is-64x64">
+              <img src="../../assets/img/IDE/docker.png" alt="Logo Docker">
             </p>
           </div>
         </div>
@@ -48,8 +61,6 @@
 </template>
 
 <style scoped>
-
-
 .message-header {
   display: flex;
   flex-direction: row;
@@ -64,4 +75,6 @@
 }
 </style>
 
-<script></script>
+<script>
+
+</script>

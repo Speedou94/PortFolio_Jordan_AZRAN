@@ -1,22 +1,13 @@
 <template>
-  <router-view />
+  <router-view/>
 </template>
 
 <style lang="scss"></style>
 <script>
-import AboutMe from "@/components/About/AboutMe";
-import MonCv from "@/views/Cv";
-import Accueil from "@/views/Accueil";
+
 export default {
-  components: {
-    Accueil,
-    AboutMe,
-    MonCv,
-  },
+  components: {},
 };
 
-
 </script>
-
-
 
