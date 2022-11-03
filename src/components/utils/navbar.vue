@@ -84,16 +84,14 @@
         <router-link
             to="/mon-cv"
             class="navbar-item"
-            @click="openCloseNavbar() + scrollInCV()"
-        >mon CV
-        </router-link
-        >
+            @click="openCloseNavbar() + scrollInCV()">mon CV
+        </router-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <router-link
-              to="/mes-projets"
+              to="/MesProjets"
               class="navbar-link"
-              @click="openCloseNavbar() + scrollInProject()"
+              @click="openCloseNavbar() + scrollInMesProjets()"
           >Mes projets
           </router-link
           >
@@ -115,7 +113,7 @@
         <div class="navbar-item">
           <div class="buttons">
             <router-link
-                to="/contact"
+                to="/ContactMe"
                 class="button is-rounded"
                 @click="openCloseNavbar() + scrollToContact()"
             ><strong>Me contacter</strong></router-link
@@ -157,10 +155,10 @@ export default {
             .scrollIntoView({behavior: "smooth"});
       }, 500);
     },
-    scrollInProject() {
+    scrollInMesProjets() {
       setTimeout(() => {
         document
-            .getElementById("projects")
+            .getElementById("MesProjets")
             .scrollIntoView({behavior: "smooth"});
       }, 500);
     },
